@@ -1,0 +1,43 @@
+body{
+	background-color: rgb(104,187,285);
+	text-align: center;
+}
+
+#header{
+
+}
+#container{
+}
+#left-box{
+	display: block;
+	float: left;
+	background-color: rgb(9,30,45);
+	color: white;
+	height: 100%;
+
+}
+#right-box{
+	margin-left: auto;
+	margin-right: auto;
+}
+#experiences-box{
+	background-color: white;
+}
+#studies-box{
+	background-color: white;
+}
+.tof{
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.experience{
+	border: solid;
+	border-color: black;
+}
+.study{
+	border: solid;
+	border-color: black;
+}
