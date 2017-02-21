@@ -9,6 +9,7 @@ body{
 #container{
 }
 #left-box{
+	border-radius: 40px;
 	display: block;
 	float: left;
 	background-color: rgb(9,30,45);
@@ -17,13 +18,24 @@ body{
 
 }
 #right-box{
-	margin-left: auto;
-	margin-right: auto;
+	border-radius: 40px;
+	float: right;
+	background-color: rgb(9,30,45);
+	width: 800px;
 }
 #experiences-box{
+    margin: 70px;
+	border: solid;
+	border-color: black;
+	border-radius: 40px;
+	margin: 50px, 0, 50px, 0;
 	background-color: white;
 }
 #studies-box{
+    margin: 70px;
+	border: solid;
+	border-color: black;
+	border-radius: 40px;
 	background-color: white;
 }
 .tof{
@@ -34,10 +46,13 @@ body{
 	display: block;
 }
 .experience{
+
+    margin: 40px;
 	border: solid;
 	border-color: black;
 }
 .study{
+    margin: 40px;
 	border: solid;
 	border-color: black;
 }
